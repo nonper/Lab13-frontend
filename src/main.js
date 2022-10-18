@@ -10,6 +10,7 @@ import camelCase from 'lodash/camelCase'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import '@/services/AxiosInterceptorSetup.js'
 
 const requireComponent = require.context(
   './components',
