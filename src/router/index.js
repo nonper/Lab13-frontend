@@ -12,6 +12,7 @@ import NProgress from 'nprogress'
 import GStore from '@/store'
 import EventService from '@/services/EventService'
 import OrganizerService from '@/services/OrganizerService.js'
+import Login from '@/views/LoginFormView.vue'
 const routes = [
   {
     path: '/',
@@ -23,6 +24,11 @@ const routes = [
     path: '/about',
     name: 'about',
     component: AboutView
+  },
+  {
+    path: '/login',
+    name: 'Login',
+    component: Login
   },
   {
     path: '/event/:id',
