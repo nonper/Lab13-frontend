@@ -1,0 +1,6 @@
+version: '3.9'
+services:
+  web:
+    image: "biggib01/se331-lab13:latest"
+    ports:
+      - 8001:80

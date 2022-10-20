@@ -27,7 +27,7 @@ const routes = [
     component: AboutView
   },
   {
-    path: '/login',
+    path: '/auth',
     name: 'Login',
     component: Login
   },
